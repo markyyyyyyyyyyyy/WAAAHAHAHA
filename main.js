@@ -14,15 +14,15 @@ onload = () => {
     const closePopup = document.getElementById("closePopup");
   
     mailBtn.addEventListener("click", () => {
-      popup.style.display = "flex"; // Show the popup
+      popup.style.display = "flex"; 
     });
   
     closePopup.addEventListener("click", () => {
-      popup.style.display = "none"; // Hide the popup
+      popup.style.display = "none";
     });
   
-    // Optional: close the popup if you click outside the content
+    
     popup.addEventListener("click", (e) => {
-      if (e.target === popup) popup.style.display = "none"; // Close if outside content is clicked
+      if (e.target === popup) popup.style.display = "none"; 
     });
   };
