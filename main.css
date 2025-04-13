@@ -1553,3 +1553,14 @@ body {
 .container * {
   -webkit-animation-play-state: paused !important;
   animation-play-state: paused !important;
+
+//MESSAGEEE
+.popup-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.popup-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
